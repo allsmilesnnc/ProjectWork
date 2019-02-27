@@ -1,0 +1,9 @@
+package com.att.javatraining.complete.lecture;
+
+public class ExceptionTest {
+	public static void main(String args[]) {
+		int[] userIdArray = { 123, 456, 789 };
+		System.out.println(userIdArray[3]); // will cause an exception
+		System.out.println("No errors here!");
+	}
+}
